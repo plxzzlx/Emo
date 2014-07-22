@@ -1,0 +1,38 @@
+C:\Program Files\Emotiv Education Edition SDK v2.0.0.20\doc\examples_DotNet\build\Debug\DotNetEmotivSDK-vs2010.dll.config
+C:\Program Files\Emotiv Education Edition SDK v2.0.0.20\doc\examples_DotNet\build\Debug\DotNetEmotivSDK-vs2010.dll
+C:\Program Files\Emotiv Education Edition SDK v2.0.0.20\doc\examples_DotNet\build\Debug\DotNetEmotivSDK-vs2010.pdb
+C:\Program Files\Emotiv Education Edition SDK v2.0.0.20\doc\examples_DotNet\DotNetEmotivSDK\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Program Files\Emotiv Education Edition SDK v2.0.0.20\doc\examples_DotNet\DotNetEmotivSDK\obj\x86\Debug\DotNetEmotivSDK-vs2010.dll
+C:\Program Files\Emotiv Education Edition SDK v2.0.0.20\doc\examples_DotNet\DotNetEmotivSDK\obj\x86\Debug\DotNetEmotivSDK-vs2010.pdb
+E:\工作\examples_DotNet\build\Debug\DotNetEmotivSDK-vs2010.dll.config
+E:\工作\examples_DotNet\build\Debug\DotNetEmotivSDK-vs2010.dll
+E:\工作\examples_DotNet\build\Debug\DotNetEmotivSDK-vs2010.pdb
+E:\工作\examples_DotNet\DotNetEmotivSDK\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\工作\examples_DotNet\DotNetEmotivSDK\obj\x86\Debug\DotNetEmotivSDK-vs2010.dll
+E:\工作\examples_DotNet\DotNetEmotivSDK\obj\x86\Debug\DotNetEmotivSDK-vs2010.pdb
+E:\工作\多源融合程序\新架构\MultiFatigueDetectSystem\build\Debug\DotNetEmotivSDK-vs2010.dll.config
+E:\工作\多源融合程序\新架构\MultiFatigueDetectSystem\build\Debug\DotNetEmotivSDK-vs2010.dll
+E:\工作\多源融合程序\新架构\MultiFatigueDetectSystem\build\Debug\DotNetEmotivSDK-vs2010.pdb
+E:\工作\多源融合程序\新架构\MultiFatigueDetectSystem\DotNetEmotivSDK\obj\x86\Debug\DotNetEmotivSDK-vs2010.dll
+E:\工作\多源融合程序\新架构\MultiFatigueDetectSystem\DotNetEmotivSDK\obj\x86\Debug\DotNetEmotivSDK-vs2010.pdb
+E:\工作\多源融合程序\新架构\MultiFatigueDetectSystem\DotNetEmotivSDK\obj\x86\Debug\DotNetEmotivSDK-vs2010.csprojResolveAssemblyReference.cache
+E:\工作\多源融合程序\新架构\MultiFatigueDetectSystem[3_25]\build\Debug\DotNetEmotivSDK-vs2010.dll.config
+E:\工作\多源融合程序\新架构\MultiFatigueDetectSystem[3_25]\build\Debug\DotNetEmotivSDK-vs2010.dll
+E:\工作\多源融合程序\新架构\MultiFatigueDetectSystem[3_25]\build\Debug\DotNetEmotivSDK-vs2010.pdb
+E:\工作\多源融合程序\新架构\MultiFatigueDetectSystem[3_25]\DotNetEmotivSDK\obj\x86\Debug\DotNetEmotivSDK-vs2010.csprojResolveAssemblyReference.cache
+E:\工作\多源融合程序\新架构\MultiFatigueDetectSystem[3_25]\DotNetEmotivSDK\obj\x86\Debug\DotNetEmotivSDK-vs2010.dll
+E:\工作\多源融合程序\新架构\MultiFatigueDetectSystem[3_25]\DotNetEmotivSDK\obj\x86\Debug\DotNetEmotivSDK-vs2010.pdb
+E:\MultiFatigueDetectSystem[4_14]\build\Debug\DotNetEmotivSDK-vs2010.dll.config
+E:\MultiFatigueDetectSystem[4_14]\build\Debug\DotNetEmotivSDK-vs2010.dll
+E:\MultiFatigueDetectSystem[4_14]\build\Debug\DotNetEmotivSDK-vs2010.pdb
+E:\MultiFatigueDetectSystem[4_14]\DotNetEmotivSDK\obj\x86\Debug\DotNetEmotivSDK-vs2010.csprojResolveAssemblyReference.cache
+E:\MultiFatigueDetectSystem[4_14]\DotNetEmotivSDK\obj\x86\Debug\DotNetEmotivSDK-vs2010.dll
+E:\MultiFatigueDetectSystem[4_14]\DotNetEmotivSDK\obj\x86\Debug\DotNetEmotivSDK-vs2010.pdb
+C:\Users\Keith Shawn\Documents\GitHub\Emo\EmoDisplay\build\Debug\edk.dll
+C:\Users\Keith Shawn\Documents\GitHub\Emo\EmoDisplay\build\Debug\edk_utils.dll
+C:\Users\Keith Shawn\Documents\GitHub\Emo\EmoDisplay\build\Debug\DotNetEmotivSDK-vs2010.dll.config
+C:\Users\Keith Shawn\Documents\GitHub\Emo\EmoDisplay\build\Debug\DotNetEmotivSDK-vs2010.dll
+C:\Users\Keith Shawn\Documents\GitHub\Emo\EmoDisplay\build\Debug\DotNetEmotivSDK-vs2010.pdb
+C:\Users\Keith Shawn\Documents\GitHub\Emo\EmoDisplay\DotNetEmotivSDK\obj\x86\Debug\DotNetEmotivSDK-vs2010.csprojResolveAssemblyReference.cache
+C:\Users\Keith Shawn\Documents\GitHub\Emo\EmoDisplay\DotNetEmotivSDK\obj\x86\Debug\DotNetEmotivSDK-vs2010.dll
+C:\Users\Keith Shawn\Documents\GitHub\Emo\EmoDisplay\DotNetEmotivSDK\obj\x86\Debug\DotNetEmotivSDK-vs2010.pdb

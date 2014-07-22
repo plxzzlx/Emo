@@ -1,0 +1,188 @@
+﻿<Window x:Class="EmoDisplay.LoadDeviceWnd"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="加载设备" 
+        Height="420" Width="840" ResizeMode="NoResize"
+        Loaded="Window_Loaded" Closed="Window_Closed"
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        
+        
+        <GroupBox   Grid.Column="0">
+            <GroupBox.Header>阻抗</GroupBox.Header>
+            <Grid Width="360" Height="360">
+                <Grid.Background>
+                    <ImageBrush ImageSource="Assets/Head.jpg" ></ImageBrush>
+                </Grid.Background>
+                <!-- Emotiv 阻抗图 -->
+                <Grid x:Name="EmotivGroupBox" Width="360" Height="360" Visibility="Hidden" >
+                    <Grid.Background>
+                        <ImageBrush ImageSource="Assets/Emotiv.png"></ImageBrush>
+                    </Grid.Background>
+
+                    <Grid.Resources>
+                        <Style TargetType="Label">
+                            <Setter Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="Label">
+                                        <Grid>
+                                            <Ellipse Width="33" Height="33"  Fill="{TemplateBinding Background}"/>
+                                            <ContentPresenter Content="{TemplateBinding Content}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                        </Grid>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                        </Style>
+
+                    </Grid.Resources>
+                    <Label Margin="-240,-330,0,0" Width="130" Height="30">Emotiv HeadSet Map</Label>
+                    <Label x:Name="Emotiv_AF4"  Foreground="White"  Background="Black" Width="33" Height="33"  Content="AF4" Margin="233,51,94,276"></Label>
+                    <Label x:Name="Emotiv_AF3"  Foreground="White"  Background="Black" Width="33" Height="33"  Content="AF3" Margin="94,51,233,276"></Label>
+                    <Label x:Name="Emotiv_F7"   Foreground="White"  Background="Black" Width="33" Height="33"  Content="F7"  Margin="46,101,281,226"></Label>
+                    <Label x:Name="Emotiv_F3"   Foreground="White"  Background="Black" Width="33" Height="33"  Content="F3"  Margin="127,95,200,232"></Label>
+                    <Label x:Name="Emotiv_F4"   Foreground="White"  Background="Black" Width="33" Height="33"  Content="F4"  Margin="201,95,126,232"></Label>
+                    <Label x:Name="Emotiv_F8"   Foreground="White"  Background="Black" Width="33" Height="33"  Content="F8"  Margin="281,101,46,226"></Label>
+                    <Label x:Name="Emotiv_FC5"  Foreground="White"  Background="Black" Width="33" Height="33"  Content="FC5" Margin="76,133,251,194"></Label>
+                    <Label x:Name="Emotiv_FC6"  Foreground="White"  Background="Black" Width="33" Height="33"  Content="FC6" Margin="252,133,75,194"></Label>
+                    <Label x:Name="Emotiv_T7"   Foreground="White"  Background="Black" Width="33" Height="33"  Content="T7"  Margin="27,175,300,152"></Label>
+                    <Label x:Name="Emotiv_T8"   Foreground="White"  Background="Black" Width="33" Height="33"  Content="T8"  Margin="299,175,28,152"></Label>
+                    <Label x:Name="Emotiv_CMS"  Foreground="White"  Background="Black" Width="33" Height="33"  Content="CMS" Margin="46,220,281,107"></Label>
+                    <Label x:Name="Emotiv_DRL"  Foreground="White"  Background="Black" Width="33" Height="33"  Content="DRL" Margin="281,220,46,107"></Label>
+                    <Label x:Name="Emotiv_P7"   Foreground="White"  Background="Black" Width="33" Height="33"  Content="P7"  Margin="78,275,249,52"></Label>
+                    <Label x:Name="Emotiv_P8"   Foreground="White"  Background="Black" Width="33" Height="33"  Content="P8"  Margin="249,274,78,53"></Label>
+                    <Label x:Name="Emotiv_O1"   Foreground="White"  Background="Black" Width="33" Height="33"  Content="O1"  Margin="122,323,205,4"></Label>
+                    <Label x:Name="Emotiv_O2"   Foreground="White"  Background="Black" Width="33" Height="33"  Content="O2"  Margin="205,323,122,4"></Label>
+                </Grid>
+                
+                <!-- Gtec 阻抗图-->
+                <Grid  x:Name="GtecGroupBox" Width="360" Height="360" Visibility="Hidden">
+                    <Grid.Background>
+                        <ImageBrush ImageSource="Assets/Gtec（带通道名称）.jpg"></ImageBrush>
+                    </Grid.Background>
+
+                    <Grid.Resources>
+                        <Style TargetType="Label">
+                            <Setter Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="Label">
+                                        <Grid>
+                                            <Ellipse Width="33" Height="33"  Fill="{TemplateBinding Background}"/>
+                                            <ContentPresenter Content="{TemplateBinding Content}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                        </Grid>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                        </Style>
+
+                    </Grid.Resources>
+                    <Label Margin="-240,-330,0,0" Width="130" Height="30">Gtec HeadSet Map</Label>
+                    <Label x:Name="Gtec_Fp2"  Foreground="White"  Background="Black" Width="33" Height="33"  Content="Fp2" Margin="218,40,109,287"></Label>
+                    <Label x:Name="Gtec_Fp1"  Foreground="White"  Background="Black" Width="33" Height="33"  Content="Fp1" Margin="109,40,218,287"></Label>
+                    <Label x:Name="Gtec_Fz"   Foreground="White"  Background="Black" Width="33" Height="33"  Content="Fz"  Margin="164,73,163,254"></Label>
+                    <Label x:Name="Gtec_F7"   Foreground="White"  Background="Black" Width="33" Height="33"  Content="F7"  Margin="46,101,281,226"></Label>
+                    <Label x:Name="Gtec_F3"   Foreground="White"  Background="Black" Width="33" Height="33"  Content="F3"  Margin="127,95,200,232"></Label>
+                    <Label x:Name="Gtec_F4"   Foreground="White"  Background="Black" Width="33" Height="33"  Content="F4"  Margin="201,95,126,232"></Label>
+                    <Label x:Name="Gtec_F8"   Foreground="White"  Background="Black" Width="33" Height="33"  Content="F8"  Margin="281,101,46,226"></Label>
+                    <Label x:Name="Gtec_C3"   Foreground="White"  Background="Black" Width="33" Height="33"  Content="C3"  Margin="117,175,210,152"></Label>
+                    <Label x:Name="Gtec_C4"   Foreground="White"  Background="Black" Width="33" Height="33"  Content="C4"  Margin="209,175,118,152"></Label>
+                    <Label x:Name="Gtec_P3"   Foreground="White"  Background="Black" Width="33" Height="33"  Content="P3"  Margin="126,271,201,56"></Label>
+                    <Label x:Name="Gtec_P4"   Foreground="White"  Background="Black" Width="33" Height="33"  Content="P4"  Margin="201,270,126,57"></Label>
+                    <Label x:Name="Gtec_P7"   Foreground="White"  Background="Black" Width="33" Height="33"  Content="P7"  Margin="78,274,249,53"></Label>
+                    <Label x:Name="Gtec_P8"   Foreground="White"  Background="Black" Width="33" Height="33"  Content="P8"  Margin="249,274,78,53"></Label>
+                    <Label x:Name="Gtec_Pz"   Foreground="White"  Background="Black" Width="33" Height="33"  Content="Pz"  Margin="164,283,163,44"></Label>
+                    <Label x:Name="Gtec_Oz"   Foreground="White"  Background="Black" Width="33" Height="33"  Content="Oz"  Margin="164,326,163,1"></Label>
+                    <Label x:Name="Gtec_EKG"  Foreground="White"  Background="Black" Width="33" Height="33"  Content="EKG" Margin="304,319,23,8"></Label>
+                </Grid>
+            </Grid>        
+        </GroupBox>
+
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <GroupBox Grid.Row="0">
+                <GroupBox.Header>选择设备</GroupBox.Header>
+                <StackPanel Orientation="Horizontal">
+                    <RadioButton Margin="5" x:Name="Radio_Gtec" Click="Radio_Gtec_Click" Visibility="Hidden">Gtec</RadioButton>
+                    <RadioButton Margin="5" x:Name="Radio_Emotiv" Click="Radio_Emotiv_Click">Emotiv</RadioButton>
+                    <Button Margin="5 0 0 0" x:Name="LoadDevice" Click="LoadDevice_Click">加载设备</Button>
+                </StackPanel>
+            </GroupBox>
+            
+            <GroupBox Grid.Row="1">
+                <GroupBox.Header>基本参数</GroupBox.Header>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"></RowDefinition>
+                        <RowDefinition Height="auto"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Label Grid.Row="0" x:Name="DeviceNameLabel">运行中设备:---- ----</Label>
+                    <StackPanel Grid.Row="1" Orientation="Horizontal">
+                        <Label  x:Name="ChannelNumLabel">通道数:---- ----</Label>
+                        <Label  x:Name="SampleRateLabel">采样率:---- ----</Label>
+                    </StackPanel>
+                </Grid>
+            </GroupBox>
+
+            <GroupBox Grid.Row="2">
+                <GroupBox.Header>通道选择</GroupBox.Header>
+                <ListBox x:Name="ChannelListBox">
+                    <ListBox.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <UniformGrid Columns="4"/>
+                        </ItemsPanelTemplate>
+                    </ListBox.ItemsPanel>
+                </ListBox>
+            </GroupBox>
+
+            <GroupBox Grid.Row="3">
+                <GroupBox.Header>
+                    通道状态
+                </GroupBox.Header>
+                <Grid >
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="auto"></ColumnDefinition>
+                        <ColumnDefinition Width="auto"></ColumnDefinition>
+                        <ColumnDefinition Width="auto"></ColumnDefinition>
+                        <ColumnDefinition Width="auto"></ColumnDefinition>
+                        <ColumnDefinition Width="auto"></ColumnDefinition>
+                        <ColumnDefinition Width="auto"></ColumnDefinition>
+                        <ColumnDefinition Width="auto"></ColumnDefinition>
+                        <ColumnDefinition Width="auto"></ColumnDefinition>
+                        <ColumnDefinition Width="auto"></ColumnDefinition>
+                        <ColumnDefinition Width="auto"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Label Grid.Column="0" Width="50"  FlowDirection="RightToLeft">无信号</Label>
+                    <Label Grid.Column="1" Width="30" Margin="0 5 5 5" Background="Black"></Label>
+                    <Label Grid.Column="2" Width="50" FlowDirection="RightToLeft">较差</Label>
+                    <Label Grid.Column="3" Width="30" Margin="0 5 5 5" Background="Red"></Label>
+                    <Label Grid.Column="4" Width="50" FlowDirection="RightToLeft">一般</Label>
+                    <Label Grid.Column="5" Width="30" Margin="0 5 5 5" Background="Orange"></Label>
+                    <Label Grid.Column="6" Width="50" FlowDirection="RightToLeft">较好</Label>
+                    <Label Grid.Column="7" Width="30" Margin="0 5 5 5" Background="Yellow"></Label>
+                    <Label Grid.Column="8" Width="50" FlowDirection="RightToLeft">很好</Label>
+                    <Label Grid.Column="9" Width="30" Margin="0 5 5 5" Background="Lime"></Label>
+                </Grid>
+            </GroupBox>
+            
+            <Grid Grid.Row="4">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Button Grid.Column="0" Height="30" Margin="5" x:Name="DetectState" Click="DetectState_Click" IsEnabled="False">检测阻抗</Button>
+                <Button Grid.Column="1" Height="30" Margin="5" x:Name="Enter" Click="Enter_Click">确定</Button>
+            </Grid>
+        </Grid>
+
+    </Grid>
+</Window>
