@@ -40,6 +40,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DataManager.cs" />
+    <Compile Include="DataWriter.cs" />
     <Compile Include="EmoDevice.cs" />
     <Compile Include="IDevice.cs" />
     <Compile Include="IObservable.cs" />
