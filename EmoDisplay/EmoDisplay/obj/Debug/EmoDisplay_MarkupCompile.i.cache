@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\Keith Shawn\Documents\GitHub\Emo\EmoDisplay\EmoDisplay\App.xaml
-41066221957
+61139837119
 
-16-1012023596
-15-1480190230
-EEGView.xaml;EEGViewWnd.xaml;LoadDeviceWnd.xaml;MainWindow.xaml;
+18701122455
+171221117710
+EEGView.xaml;EEGViewWnd.xaml;FFTView.xaml;FFTViewWnd.xaml;LoadDeviceWnd.xaml;MainWindow.xaml;
 
 True
 

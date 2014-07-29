@@ -1,9 +1,9 @@
-C:\Users\Keith Shawn\Documents\GitHub\Emo\EmoDisplay\DataManager\obj\Debug\DataManager.csprojResolveAssemblyReference.cache
 C:\Users\Keith Shawn\Documents\GitHub\Emo\EmoDisplay\DataManager\bin\Debug\edk.dll
 C:\Users\Keith Shawn\Documents\GitHub\Emo\EmoDisplay\DataManager\bin\Debug\edk_utils.dll
 C:\Users\Keith Shawn\Documents\GitHub\Emo\EmoDisplay\DataManager\bin\Debug\DataManager.dll
 C:\Users\Keith Shawn\Documents\GitHub\Emo\EmoDisplay\DataManager\bin\Debug\DataManager.pdb
 C:\Users\Keith Shawn\Documents\GitHub\Emo\EmoDisplay\DataManager\bin\Debug\DotNetEmotivSDK-vs2010.dll
 C:\Users\Keith Shawn\Documents\GitHub\Emo\EmoDisplay\DataManager\bin\Debug\DotNetEmotivSDK-vs2010.pdb
+C:\Users\Keith Shawn\Documents\GitHub\Emo\EmoDisplay\DataManager\obj\Debug\DataManager.csprojResolveAssemblyReference.cache
 C:\Users\Keith Shawn\Documents\GitHub\Emo\EmoDisplay\DataManager\obj\Debug\DataManager.dll
 C:\Users\Keith Shawn\Documents\GitHub\Emo\EmoDisplay\DataManager\obj\Debug\DataManager.pdb

@@ -42,7 +42,8 @@ namespace EmoDisplay
 
         private void FFT_Click(object sender, RoutedEventArgs e)
         {
-
+            FFTViewWnd fftview = new FFTViewWnd();
+            fftview.Show();
         }
 
         private void Brain_Click(object sender, RoutedEventArgs e)

@@ -33,6 +33,6 @@ C:\Users\Keith Shawn\Documents\GitHub\Emo\EmoDisplay\build\Debug\edk_utils.dll
 C:\Users\Keith Shawn\Documents\GitHub\Emo\EmoDisplay\build\Debug\DotNetEmotivSDK-vs2010.dll.config
 C:\Users\Keith Shawn\Documents\GitHub\Emo\EmoDisplay\build\Debug\DotNetEmotivSDK-vs2010.dll
 C:\Users\Keith Shawn\Documents\GitHub\Emo\EmoDisplay\build\Debug\DotNetEmotivSDK-vs2010.pdb
-C:\Users\Keith Shawn\Documents\GitHub\Emo\EmoDisplay\DotNetEmotivSDK\obj\x86\Debug\DotNetEmotivSDK-vs2010.csprojResolveAssemblyReference.cache
 C:\Users\Keith Shawn\Documents\GitHub\Emo\EmoDisplay\DotNetEmotivSDK\obj\x86\Debug\DotNetEmotivSDK-vs2010.dll
 C:\Users\Keith Shawn\Documents\GitHub\Emo\EmoDisplay\DotNetEmotivSDK\obj\x86\Debug\DotNetEmotivSDK-vs2010.pdb
+C:\Users\Keith Shawn\Documents\GitHub\Emo\EmoDisplay\DotNetEmotivSDK\obj\x86\Debug\DotNetEmotivSDK-vs2010.csprojResolveAssemblyReference.cache
