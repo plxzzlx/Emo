@@ -1,0 +1,9 @@
+﻿<Window x:Class="EmoDisplay.FFTViewWnd"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:EEG="clr-namespace:EmoDisplay"
+        Title="FFTViewWnd" Height="363" Width="667" Loaded="Window_Loaded" Closed="Window_Closed">
+    <Grid>
+        <EEG:FFTView x:Name="fftView"></EEG:FFTView>
+    </Grid>
+</Window>

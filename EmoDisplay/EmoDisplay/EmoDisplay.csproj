@@ -39,6 +39,8 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -56,6 +58,12 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="FFTView.xaml.cs">
+      <DependentUpon>FFTView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FFTViewWnd.xaml.cs">
+      <DependentUpon>FFTViewWnd.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Utils\Algorithm.cs" />
     <Compile Include="Utils\Complex.cs" />
     <Compile Include="Utils\DataConverter.cs" />
@@ -65,6 +73,14 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="EEGViewWnd.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="FFTView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="FFTViewWnd.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
