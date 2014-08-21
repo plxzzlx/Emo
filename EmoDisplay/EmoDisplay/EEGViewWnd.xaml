@@ -4,6 +4,22 @@
         xmlns:EEG="clr-namespace:EmoDisplay"
         Title="EEGViewWnd" Height="600" Width="800" Loaded="Window_Loaded" Closed="Window_Closed">
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+        </Grid.RowDefinitions>
         <EEG:EEGView x:Name="SrcView"></EEG:EEGView>
+        <GroupBox Grid.Row="1">
+            <GroupBox.Header>数据</GroupBox.Header>
+
+            <StackPanel Orientation="Horizontal">
+                <Button Width="100" x:Name="SaveDataBtn" Click="SaveDataBtn_Click">保存数据</Button>
+                <Label Margin="5">SimulusCode：</Label>
+                <TextBox Margin="5" x:Name="SimulusCodeBox" Width="120">0</TextBox>
+                <Label Margin="5">SourceTime：</Label>
+                <TextBox Margin="5" x:Name="SourceTimeBox" Width="120">0</TextBox>
+                <Button  Width="100" x:Name="Tag" Click="Tag_Click" IsEnabled="False">标记</Button>
+            </StackPanel>
+        </GroupBox>
     </Grid>
 </Window>
